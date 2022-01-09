@@ -13,8 +13,10 @@
     "watch:css": "npm-run-all sass:watch",
     "watch:js": "react-scripts start",
     "start": "npm-run-all -p build:css watch:*",
-    "build": "npm-run-all build:css build:js",
-    "lint": "eslint src --ext .js,.jsx --fix"
+    "build": "npm-run-all build:css build:js"
+  },
+  "engines": {
+    "node": "16.x"
   },
   "eslintConfig": {
     "extends": [
