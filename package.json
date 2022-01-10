@@ -1,8 +1,5 @@
 {
-  "name": "appstack-react",
-  "version": "2.1.0",
-  "description": "AppStack - React Admin & Dashboard Template",
-  "author": "Paul Laros <support@bootlab.io>",
+  "name": "timikat",
   "private": true,
   "scripts": {
     "sass:build": "sass src/assets/scss:public/css --load-path node_modules",
@@ -14,9 +11,6 @@
     "watch:js": "react-scripts start",
     "start": "npm-run-all -p build:css watch:*",
     "build": "npm-run-all build:css build:js"
-  },
-  "engines": {
-    "node": "16.x"
   },
   "eslintConfig": {
     "extends": [
